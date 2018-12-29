@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
 
   s.author             = { "Ryan Coyne" => "ryan@clearcodex.com" }
 
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios
+  s.ios.deployment_target = '8.0'
   s.swift_version = "4.2"
   s.source       = { :git => "https://github.com/ryancoyne/TestFramework.git", :tag => "#{s.version}" }
   s.ios.vendored_frameworks = "TestFramework.framework"

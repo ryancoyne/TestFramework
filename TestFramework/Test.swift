@@ -8,10 +8,11 @@
 
 import Foundation
 
-struct Test {
+public struct Test {
     private init() { }
+    public static let shared = Test()
     
-    func test() {
+    public func testPrint() {
         print("Yay.  You tested successfully!")
     }
 }

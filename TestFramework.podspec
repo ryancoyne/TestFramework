@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.swift_version = "4.2"
   s.source       = { :git => "https://github.com/ryancoyne/TestFramework.git", :tag => "#{s.version}" }
-  s.vendored_frameworks = "TestFramework.framework"
+  s.ios.vendored_frameworks = "TestFramework.framework"
 
 end

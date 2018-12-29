@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zbiJe3bnUNMKEpkF5MO/LTzuJw0=
+		LAZXDiqtUZeeuWdCOs3y1I+WTlg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>TestFramework.podspec</key>
 		<data>
-		pX5imV7YoVLfQZmLyYENEUZXEto=
+		rAvTQeHmsNyOASTInmIEpYB3120=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,11 +72,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zbiJe3bnUNMKEpkF5MO/LTzuJw0=
+			LAZXDiqtUZeeuWdCOs3y1I+WTlg=
 			</data>
 			<key>hash2</key>
 			<data>
-			bfdS7D2SMeNYCf91TbWL8GLUFrVNl5PeVuVQD85ub9E=
+			7IsRfISKI5RHOBLY3BimyjvfD9bKGeMD5l41o3qe0Qg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -94,11 +94,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pX5imV7YoVLfQZmLyYENEUZXEto=
+			rAvTQeHmsNyOASTInmIEpYB3120=
 			</data>
 			<key>hash2</key>
 			<data>
-			jko74YOse8XqumowdF0D0zL6ozbd64CQiPIoIWp5n9w=
+			CE1r6QyFLi8bEdC3O9Su9dedAe7oIqM5+bNXRMQ/rAY=
 			</data>
 		</dict>
 	</dict>

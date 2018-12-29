@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TestFramework"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "The Test Framework is a little test for Swift 4.2.1 compiled frameworks."
 
   s.description  = "My TestFramework is a test to make sure that the compiled framework will be work swift 4.2.1 since I am creating it with Xcode 10."

@@ -10,6 +10,7 @@
 		C248367C21D70BEE006E4081 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C248367221D70BEE006E4081 /* TestFramework.framework */; };
 		C248368121D70BEE006E4081 /* TestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248368021D70BEE006E4081 /* TestFrameworkTests.swift */; };
 		C248368321D70BEE006E4081 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C248367521D70BEE006E4081 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C248368D21D70C7E006E4081 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248368C21D70C7E006E4081 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C248367B21D70BEE006E4081 /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C248368021D70BEE006E4081 /* TestFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrameworkTests.swift; sourceTree = "<group>"; };
 		C248368221D70BEE006E4081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C248368C21D70C7E006E4081 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C248367521D70BEE006E4081 /* TestFramework.h */,
+				C248368C21D70C7E006E4081 /* Test.swift */,
 				C248367621D70BEE006E4081 /* Info.plist */,
 			);
 			path = TestFramework;
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					C248367121D70BEE006E4081 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					C248367A21D70BEE006E4081 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C248368D21D70C7E006E4081 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		C248368721D70BEE006E4081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.clearcodex.TestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +373,7 @@
 		C248368821D70BEE006E4081 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +399,7 @@
 		C248368A21D70BEE006E4081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2BC6BDQ69;
 				INFOPLIST_FILE = TestFrameworkTests/Info.plist;
@@ -409,6 +418,7 @@
 		C248368B21D70BEE006E4081 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2BC6BDQ69;
 				INFOPLIST_FILE = TestFrameworkTests/Info.plist;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21CA0B121D817090038EFF0 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CA0B021D817090038EFF0 /* Utility.swift */; };
 		C248367C21D70BEE006E4081 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C248367221D70BEE006E4081 /* TestFramework.framework */; };
 		C248368121D70BEE006E4081 /* TestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C248368021D70BEE006E4081 /* TestFrameworkTests.swift */; };
 		C248368321D70BEE006E4081 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C248367521D70BEE006E4081 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C21CA0B021D817090038EFF0 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		C248367221D70BEE006E4081 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C248367521D70BEE006E4081 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		C248367621D70BEE006E4081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C21CA0AF21D816F90038EFF0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C21CA0B021D817090038EFF0 /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		C248366821D70BEE006E4081 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 				C248368E21D70CEB006E4081 /* TestFramework.podspec */,
 				C248367521D70BEE006E4081 /* TestFramework.h */,
 				C248368C21D70C7E006E4081 /* Test.swift */,
+				C21CA0AF21D816F90038EFF0 /* Utilities */,
 				C248367621D70BEE006E4081 /* Info.plist */,
 			);
 			path = TestFramework;
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21CA0B121D817090038EFF0 /* Utility.swift in Sources */,
 				C248368D21D70C7E006E4081 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
